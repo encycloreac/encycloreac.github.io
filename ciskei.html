@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ciskei — Encyclo-Réac</title>
+<style type="text/css">
+  * {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Cambria, serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Cambria, serif;
+    line-height: 1.6;
+    color: #000;
+    background: #fff;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 220px 1fr 220px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "top    top    top"
+      "left   center right"
+      "bottom bottom bottom";
+    gap: 0;
+  }
+
+  /* Continuum : toutes les zones "notes" partagent le même fond gris clair,
+     sans cases isolées ni filets de séparation */
+  .frame-top,
+  .frame-left,
+  .frame-right,
+  .frame-bottom {
+    background: #f2f2f2;
+    padding: 1.4rem 1.6rem;
+  }
+
+  .frame-top {
+    grid-area: top;
+  }
+
+  .frame-left {
+    grid-area: left;
+  }
+
+  .frame-right {
+    grid-area: right;
+  }
+
+  .frame-bottom {
+    grid-area: bottom;
+  }
+
+  .center {
+    grid-area: center;
+    min-width: 0;
+    align-self: start;
+    padding: 2rem 2.2rem;
+  }
+
+  .info-block {
+    padding: 0;
+  }
+
+  .info-block + .info-block {
+    margin-top: 1.4rem;
+  }
+
+  .info-block h3 {
+    margin: 0 0 0.4rem 0;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .info-block p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.55;
+    color: #000;
+  }
+
+  .frame-top .info-block,
+  .frame-bottom .info-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    align-items: baseline;
+  }
+
+  .frame-top .info-block h3,
+  .frame-bottom .info-block h3 {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .frame-top .info-item,
+  .frame-bottom .info-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+    color: #000;
+    margin: 0 0 0.3rem 0;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+
+  /* Le texte du Contenu : plus petit et resserré,
+     pour paraître écrasé sous les notes qui l'encadrent */
+  .content {
+    font-size: 0.82rem;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+    color: #000;
+  }
+
+  .content p {
+    margin: 0 0 0.7rem 0;
+  }
+
+  .sources {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  .sources p {
+    margin: 0 0 0.4rem 0;
+  }
+
+  .sources p:last-child {
+    margin-bottom: 0;
+  }
+
+  .sources a {
+    color: #000;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Responsive */
+  @media (max-width: 800px) {
+    body {
+      padding: 1rem;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .frame-top {
+      order: 3;
+    }
+    .center {
+      order: 1;
+    }
+    .frame-left {
+      order: 2;
+    }
+    .frame-right {
+      order: 4;
+    }
+    .frame-bottom {
+      order: 5;
+    }
+    .frame-top .info-block,
+    .frame-bottom .info-block {
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .content {
+      font-size: 0.88rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <div class="frame-top">
+    <div class="info-block">
+      <div class="info-item">
+        <h3>Orientation idéologique</h3>
+        <p>Ségrégationniste / libertarienne</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="frame-left">
+    <div class="info-block">
+      <h3>Intentions</h3>
+      <p>Ciskei aura fait l&rsquo;objet des fantasmes libertariens de multiplication des zones franches en vogue à l&rsquo;époque. Elle est perçue comme une manière de sauver le régime de l&rsquo;apartheid, en promouvant un modèle à la fois ségrégationniste et libertarien à répliquer dans le reste du monde.</p>
+    </div>
+    <div class="info-block" style="margin-top: 1rem;">
+      <h3>Soutiens idéologiques</h3>
+      <p>Mont Pèlerin Society, Free Market Foundation, Milton Friedman, presse financière</p>
+    </div>
+  </div>
+
+  <div class="center">
+    <a class="back-link" href="#">&larr; Retour au sommaire</a>
+    <p class="eyebrow">Afrique du Sud</p>
+    <h1>Ciskei</h1>
+    <div class="content">
+      <p>Projet de zone de libre-échange dans le « Bantoustan » de Ciskei en Afrique du Sud. Dans les années 1980, l&rsquo;Afrique du Sud est divisée en territoires où la terre est possédée par les grands propriétaires blancs et en Bantoustans, des zones semi-autonomes voire indépendants de l&rsquo;Est du pays où sont concentrés les Noirs. Ciskei est l&rsquo;une de ces enclaves, une pseudo-nation indépendante jusqu&rsquo;en 1991.</p>
+      <p>À partir de 1986, le dictateur de Ciskei nomme une commission pour intégrer Ciskei aux échanges internationaux tout en mettant à profit le sous-prolétariat noir créé par l&rsquo;apartheid. Les conditions de vie y sont mauvaises, la main d&rsquo;œuvre noire y est abondante et peu coûteuse, le territoire jouxte la mer. Les technocrates de cette commission, des Blancs d&rsquo;Afrique du Sud, proposent d&rsquo;y installer une zone de libre-échange (la presse parle du « le Hong Kong africain » et de « la Suisse d&rsquo;Afrique ») afin d&rsquo;attirer les investissements internationaux.</p>
+      <p>Ciskei devient une « Export Processing Zone » (EPZ), une zone franche à la réglementation favorable aux investissements internationaux (détaxation des investissements étrangers, privatisation du système foncier traditionnel, etc). Rapidement, les patronats européen, sud-africain et asiatique manifestent leur intérêt voire ouvrent des usines sur place.</p>
+      <p>Alors que Ciskei fait l&rsquo;objet d&rsquo;un coup d&rsquo;État militaire puis de son absorption par l&rsquo;Afrique du Sud en 1994, l&rsquo;EPZ de Ciskei disparaît.</p>
+    </div>
+  </div>
+
+  <div class="frame-right">
+    <div class="info-block">
+      <h3>Analyse</h3>
+      <p>Ciskei remet en question la croyance selon laquelle les pensées libertariennes et néolibérales sont incompatibles avec les visions racistes et ségrégationnistes du monde. Quinn Slobodian montre au contraire que la pensée néolibérale exprime d&rsquo;emblée la vision d&rsquo;un ordre racial.</p>
+    </div>
+    <div class="info-block" style="margin-top: 1rem;">
+      <h3>Soutiens économiques</h3>
+      <p>Industrie manufacturière, textile, banques de développement</p>
+    </div>
+  </div>
+
+  <div class="frame-bottom">
+    <div class="info-block">
+      <div class="info-item">
+        <h3>Liens avec d&rsquo;autres spéculations</h3>
+        <p>Orania (Afrique du Sud), Freedonia (Somaliland), New Gaza (Palestine)</p>
+      </div>
+    </div>
+    <div class="sources" style="margin-top: 1rem;">
+      <p><strong>Références :</strong> voir <em>Le Capitalisme de l&rsquo;Apocalypse</em> de Quinn Slobodian (Seuil, 2025) : <a href="https://www.seuil.com/ouvrage/le-capitalisme-de-l-apocalypse-quinn-slobodian/9782021451405" target="_blank" rel="noopener">seuil.com</a></p>
+      <p>Et « The Ciskei experiment: a libertarian fantasy in apartheid South Africa » (The Guardian, 2023), du même auteur : <a href="https://www.theguardian.com/news/2023/mar/23/the-ciskei-experiment-a-libertarian-fantasy-in-apartheid-south-africa" target="_blank" rel="noopener">theguardian.com</a></p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
