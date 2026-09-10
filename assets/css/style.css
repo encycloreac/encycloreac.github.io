@@ -18,6 +18,11 @@ a {
   font-weight: normal;
 }
 
+a:hover {
+  color: #303030;
+  text-decoration: none;
+}
+
 /* ===================== PAGE D'ACCUEIL ===================== */
 
 .home-container {
