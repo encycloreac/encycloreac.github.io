@@ -5,7 +5,7 @@ orientation: "Conspirationnisme / libertarianisme / néonazisme / anarcho-capita
 intentions: "La théorie de la conspiration présente l'existence de l'Etat comme le symptôme d'une conspiration et la lutte contre l'Etat comme la restauration d'un ordre naturel."
 analyse: "NESARA/GESARA radicalise la théorie de la valeur mainstream, qui délégitime la capacité des Etats en tant qu'entités collectives chargées d'organiser la vie sociale et économique."
 soutiens_ideologiques: "Communautés QAnon et Citoyens Souverains, l'influenceur Joe Rogan, le sénateur américain libertarien Rand Paul."
-soutiens_economiques: "Elon Musk."
+soutiens_economiques: "Industrie des crypto-monnaies et de la finance décentralisée, Elon Musk."
 liens_autres: "Quantum Financial System, QAnon, Grand Remplacement."
 references:
   - texte: "« Finance, paranoïa et radicalisation de la valeur », Fabian Muniesa (2026)"
