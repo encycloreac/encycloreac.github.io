@@ -11,7 +11,7 @@ references:
   - texte: "« Dark Gothic MAGA : Elon Musk, la néoréaction et l’esthétique du cyberfascisme », Norman Ajari (2025)"
     url: "https://lundi.am/Dark-Gothic-MAGA-Elon-Musk-la-neoreaction-et-l-esthetique-du-cyberfascisme"
     label: "Lundi.AM"
-  - texte: "« What the Kek: Explaining the Alt-Right ‘Deity’ Behind Their ‘Meme Magic’ », Southern Poverty Law Center, 2017)"
+  - texte: "« What the Kek: Explaining the Alt-Right ‘Deity’ Behind Their ‘Meme Magic’ », Southern Poverty Law Center (2017)"
     url: "https://www.splcenter.org/resources/hatewatch/what-kek-explaining-alt-right-deity-behind-their-meme-magic/"
     label: "SPLCenter.com"
 ---
