@@ -1,0 +1,18 @@
+{% assign letter = include.letter %}
+{% assign sorted_entries = site.entries | sort: "title" %}
+<div class="letter-group">
+  <span class="letter-label">{{ letter }}</span>
+  {% assign found = false %}
+  {% for e in sorted_entries %}
+    {% assign first_char = e.title | slice: 0, 1 | upcase %}
+    {% if first_char == letter %}
+      {% assign found = true %}
+      <p class="entry-item">
+        <a href="{{ e.url | relative_url }}">{{ e.title }}</a>{% if e.zone %} ({{ e.zone }}){% endif %}
+      </p>
+    {% endif %}
+  {% endfor %}
+  {% unless found %}
+    <p class="entry-item empty">—</p>
+  {% endunless %}
+</div>

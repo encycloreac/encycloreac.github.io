@@ -1,0 +1,22 @@
+title: Encyclo-Réac
+description: "Une encyclopédie des spéculations réactionnaires"
+url: "https://encycloreac.github.io"
+baseurl: ""
+
+# On déclare une "collection" : un ensemble de fiches qui partagent
+# la même structure. Chaque fichier dans _entries/ devient une page.
+collections:
+  entries:
+    output: true       # génère bien une page HTML pour chaque fiche
+    permalink: /:name/ # ex: _entries/ciskei.md -> /ciskei/
+
+# Valeurs par défaut appliquées automatiquement à tous les fichiers
+# de la collection "entries", pour ne pas avoir à les répéter partout.
+defaults:
+  - scope:
+      path: ""
+      type: entries
+    values:
+      layout: entry
+
+markdown: kramdown

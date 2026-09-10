@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<div class="entry-container">
+
+  <div class="frame-top">
+    {% if page.orientation %}
+    <div class="info-block">
+      <div class="info-item">
+        <h3>Orientation idéologique</h3>
+        <p>{{ page.orientation }}</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="frame-left">
+    {% if page.intentions %}
+    <div class="info-block">
+      <h3>Intentions</h3>
+      <p>{{ page.intentions }}</p>
+    </div>
+    {% endif %}
+    {% if page.soutiens_ideologiques %}
+    <div class="info-block" style="margin-top: 1rem;">
+      <h3>Soutiens idéologiques</h3>
+      <p>{{ page.soutiens_ideologiques }}</p>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="center">
+    <a class="back-link" href="{{ '/' | relative_url }}">&larr; Retour au sommaire</a>
+    {% if page.zone %}<p class="eyebrow">{{ page.zone }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+
+  <div class="frame-right">
+    {% if page.analyse %}
+    <div class="info-block">
+      <h3>Analyse</h3>
+      <p>{{ page.analyse }}</p>
+    </div>
+    {% endif %}
+    {% if page.soutiens_economiques %}
+    <div class="info-block" style="margin-top: 1rem;">
+      <h3>Soutiens économiques</h3>
+      <p>{{ page.soutiens_economiques }}</p>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="frame-bottom">
+    {% if page.liens_autres %}
+    <div class="info-block">
+      <div class="info-item">
+        <h3>Liens avec d&rsquo;autres spéculations</h3>
+        <p>{{ page.liens_autres }}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% if page.references %}
+    <div class="sources" style="margin-top: 1rem;">
+      <p><strong>Références :</strong></p>
+      {% for ref in page.references %}
+        <p>{{ ref.texte }}{% if ref.url %} : <a href="{{ ref.url }}" target="_blank" rel="noopener">{{ ref.label | default: ref.url }}</a>{% endif %}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+</div>
