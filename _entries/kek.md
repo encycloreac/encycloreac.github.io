@@ -1,6 +1,6 @@
 ---
 title: "Kek"
-zone: "Communautés digitales transnationales"
+zone: "communautés digitales transnationales"
 orientation: "Confusionnisme / trumpisme / conspirationnisme / néonazisme"
 intentions: "À la fois symbole d'un rire dépolitisé et symbole néonazi, Kek est un signe de ralliement efficace pour les communautés néonazies, permettant de se reconnaître tout en entretenant l'ambiguïté."
 analyse: "Kek est un mème récupérée par les communautés digitales néonazies, trumpistes et confusionnistes. Il constitue à la fois un signe de ralliement ambigü et le véhicule d'une ironie fascisante."
