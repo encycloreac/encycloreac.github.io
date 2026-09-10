@@ -110,12 +110,6 @@ body {
   }
 }
 
-@media (min-width: 481px) and (max-width: 650px) {
-  .sommaire-columns {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 /* ===================== PAGE DE FICHE (ENTRY) ===================== */
 
 .entry-container {
