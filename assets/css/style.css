@@ -25,6 +25,7 @@ body {
 .home-container .left {
   flex: 1 1 45%;
   min-width: 0;
+  text-align: justify;
 }
 
 .home-container .right {
