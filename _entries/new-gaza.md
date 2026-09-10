@@ -2,7 +2,7 @@
 title: "New Gaza"
 zone: "Palestine"
 orientation: "Ségrégationniste / libertarienne / génocidaire"
-intentions: "Le projet vise à rendre possible et désirable l'épuration ethnique d'une zone aussi grande et peuplée que la bande de Gaza pour avancer le projet colonial d'Israël soutenu par les Etats-Unis, en la transformant en opportunité économique."
+intentions: "Le projet vise à rendre possible et désirable l'épuration ethnique de la bande de Gaza pour avancer le projet colonial d'Israël, en la transformant en opportunité économique."
 analyse: "Le projet montre la compatibilité entre le futurisme corporate des grands cabinets de conseil, le libertarianisme des zones franches étudiées par Quinn Slobodian et le projet colonial et génocidaire de l'extrême-droite israélienne."
 soutiens_ideologiques: "Coalition de gouvernement israélienne (droite/extrême-droite), Tony Blair Institute, MAGA."
 soutiens_economiques: "Boston Consulting Group, Elon Musk, Big Tech et entreprises de l'IA, Trump Organization, pétromonarchies du Golfe."
