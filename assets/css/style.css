@@ -35,7 +35,6 @@ body {
 .home-container h2 {
   font-size: 2rem;
   margin-top: 0;
-  border-bottom: 3px solid #222;
   padding-bottom: 0.5rem;
 }
 
@@ -68,7 +67,6 @@ body {
   display: block;
   margin: 0.8rem 0 0.2rem 0;
   font-size: 1.1rem;
-  border-bottom: 1px solid #ccc;
 }
 
 .entry-item {
@@ -83,11 +81,6 @@ body {
 
 .entry-item a:hover {
   text-decoration: underline;
-}
-
-.entry-item.empty {
-  color: #999;
-  font-style: italic;
 }
 
 @media (max-width: 800px) {
