@@ -11,26 +11,18 @@ layout: default
   </div>
 
   <div class="right">
-    <h3 class="sommaire-title">Sommaire</h3>
     <div class="sommaire-columns">
 
       <div class="col-1">
-        {% assign letters1 = "ABCDEFGHI" | split: "" %}
+        {% assign letters1 = "ABCDEFGHIJKLM" | split: "" %}
         {% for letter in letters1 %}
           {% include letter-group.html letter=letter %}
         {% endfor %}
       </div>
 
       <div class="col-2">
-        {% assign letters2 = "JKLMNOPQR" | split: "" %}
+        {% assign letters2 = "NOPQRSTUVWXYZ" | split: "" %}
         {% for letter in letters2 %}
-          {% include letter-group.html letter=letter %}
-        {% endfor %}
-      </div>
-
-      <div class="col-3">
-        {% assign letters3 = "STUVWXYZ" | split: "" %}
-        {% for letter in letters3 %}
           {% include letter-group.html letter=letter %}
         {% endfor %}
       </div>
