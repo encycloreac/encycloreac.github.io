@@ -42,19 +42,10 @@ body {
   margin: 0 0 1rem 0;
 }
 
-.sommaire-title {
-  font-size: 1.3rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
 .sommaire-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0 1.2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 1.5rem;
 }
 
 .letter-group {
