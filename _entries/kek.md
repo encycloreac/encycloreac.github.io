@@ -6,12 +6,12 @@ intentions: "À la fin symbole d'un rire dépolitisé et symbole néonazi, Kek e
 analyse: "Kek est un investissement de forme par les communautés digitales néonazies, trumpistes et confusionnistes. En plus de constituer un signe de ralliement, il incarne une ironie fascisante."
 soutiens_ideologiques: "Communauté QAnon, 4chan, "
 soutiens_economiques: "Elon Musk, plateformes digitales et Big Tech."
-liens_autres: "Warhammer 40K néonazi"
+liens_autres: "Warhammer 40K néonazi."
 references:
-  - texte: "Dark Gothic MAGA : Elon Musk, la néoréaction et l’esthétique du cyberfascisme, Norman Ajari (2025)"
+  - texte: "« Dark Gothic MAGA : Elon Musk, la néoréaction et l’esthétique du cyberfascisme », Norman Ajari (2025)"
     url: "https://lundi.am/Dark-Gothic-MAGA-Elon-Musk-la-neoreaction-et-l-esthetique-du-cyberfascisme"
     label: "Lundi.AM"
-  - texte: "What the Kek: Explaining the Alt-Right ‘Deity’ Behind Their ‘Meme Magic’ (Southern Poverty Law Center, 2017)"
+  - texte: "« What the Kek: Explaining the Alt-Right ‘Deity’ Behind Their ‘Meme Magic’ », Southern Poverty Law Center, 2017)"
     url: "https://www.splcenter.org/resources/hatewatch/what-kek-explaining-alt-right-deity-behind-their-meme-magic/"
     label: "SPLCenter.com"
 ---
