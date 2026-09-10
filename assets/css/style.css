@@ -12,6 +12,12 @@ body {
   background: #fff;
 }
 
+a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
 /* ===================== PAGE D'ACCUEIL ===================== */
 
 .home-container {
@@ -23,14 +29,14 @@ body {
 }
 
 .home-container .left {
-  flex: 1 1 45%;
+  flex: 1 1 50%;
   min-width: 0;
 }
 
 .home-container .right {
-  flex: 1 1 55%;
+  flex: 1 1 50%;
   min-width: 0;
-  margin-top: 6.3rem;
+  margin-top: 4.3rem;
 }
 
 .home-container h2 {
@@ -64,15 +70,6 @@ body {
 .entry-item {
   margin: 0.15rem 0;
   padding-left: 0.2rem;
-}
-
-.entry-item a {
-  color: #000;
-  text-decoration: none;
-}
-
-.entry-item a:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 800px) {
