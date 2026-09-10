@@ -9,14 +9,24 @@ collections:
   entries:
     output: true       # génère bien une page HTML pour chaque fiche
     permalink: /:name/ # ex: _entries/ciskei.md -> /ciskei/
+  entries_en:
+    output: true
+    permalink: /en/:name/ # ex: _entries_en/ciskei.md -> /en/ciskei/
 
 # Valeurs par défaut appliquées automatiquement à tous les fichiers
-# de la collection "entries", pour ne pas avoir à les répéter partout.
+# de chaque collection, pour ne pas avoir à les répéter partout.
 defaults:
   - scope:
       path: ""
       type: entries
     values:
       layout: entry
+      lang: fr
+  - scope:
+      path: ""
+      type: entries_en
+    values:
+      layout: entry
+      lang: en
 
 markdown: kramdown

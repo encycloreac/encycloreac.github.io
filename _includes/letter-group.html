@@ -1,5 +1,9 @@
 {% assign letter = include.letter %}
-{% assign sorted_entries = site.entries | sort: "title" %}
+{% if include.lang == "en" %}
+  {% assign sorted_entries = site.entries_en | sort: "title" %}
+{% else %}
+  {% assign sorted_entries = site.entries | sort: "title" %}
+{% endif %}
 <div class="letter-group">
   <span class="letter-label">{{ letter }}</span>
   {% for e in sorted_entries %}
