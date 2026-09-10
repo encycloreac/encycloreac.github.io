@@ -16,9 +16,6 @@ references:
     label: "T&F (payant)"
 ---
 
-Voir  et .
-
-
 Projet d’épuration ethnique, de reconstruction et de transformation de Gaza en zone économique spéciale. Le projet fuite dans la presse en juillet 2025, après deux ans de bombardements génocidaires de l’armée israélienne à Gaza. Il est développé par des consultants du Boston Consulting Group et du Tony Blair Institute, en collaboration avec des organismes proches des gouvernements américain et israélien. 
 
 Le projet prévoit la transformation de Gaza en zone économique spéciale, avec un taux d’imposition avantageux et une régulation favorable aux investissements étrangers. Il prévoit le découpage de Gaza en plusieurs zones : un complexe hôtelier (« Gaza Trump Riviera and Islands »), une zone dédiée à l’industrie (« Elon Musk smart manufacturing zone »), une zone dédiée à la tech (« American Data Safe Haven »), avec le soutien des capitaux saoudiens et émiratis. 
