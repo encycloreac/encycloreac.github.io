@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   color: #000;
   background: #fff;
+  position: relative;
 }
 
 a {
@@ -19,9 +20,9 @@ a {
 }
 
 .lang-switch {
-  max-width: 1400px;
-  margin: 0 auto 1rem auto;
-  text-align: right;
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
   font-size: 0.85rem;
 }
 
