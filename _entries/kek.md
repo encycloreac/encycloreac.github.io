@@ -1,5 +1,5 @@
 ---
-title: "KEK"
+title: "Kek"
 zone: "Communautés digitales transnationales"
 orientation: "Confusionnisme / trumpisme / conspirationnisme / néonazisme"
 intentions: "À la fin symbole d'un rire dépolitisé et symbole néonazi, Kek est un signe de ralliement efficace pour les communautés néonazis, permettant de se reconnaître tout en entretenant l'ambiguïté."
