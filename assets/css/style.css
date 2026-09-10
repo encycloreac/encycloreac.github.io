@@ -54,8 +54,8 @@ body {
 
 .sommaire-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 1.2rem;
 }
 
 .letter-group {
@@ -107,6 +107,12 @@ body {
   }
   .home-container h2 {
     font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 650px) {
+  .sommaire-columns {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
