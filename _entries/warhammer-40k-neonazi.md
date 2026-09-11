@@ -16,6 +16,6 @@ references:
 ---
 Récupération de l'univers Warhammer 40K comme signe de reconnaissance néonazi. Warhammer 40K est un univers de fantaisie commercialisé par l'entreprise britannique Games Workshop (jeu de plateau, jeux vidéos, figurines à peindre). 
 
-Dans cet univers, des Space Marines appartenant à un empire fasciste dirigé par l'Empereur-Dieu de l'Humanité éliminent sans relâche des races étrangères et des hérétiques. Games Workshop avait conçu l'Imperium comme une organisation parodique dont les aspects fanatiques, bureaucratiques et sanguinaires tendaient au comique. 
+Dans cet univers, des <em>Space Marines</em> appartenant à un empire fasciste dirigé par l'Empereur-Dieu de l'Humanité éliminent sans relâche des races étrangères et des hérétiques. Les créateur-ices de Games Workshop parlent de l'empire comme d'une organisation parodique, dont les traits fanatiques, bureaucratiques et sanguinaires tendent au comique. 
 
-Dans les années 2000, Warhammer 40K est récupéré par des groupes néonazis, malgré les efforts de Games Workshop pour s'en distancier. Le suprémaciste américain Matthew Heimbach déclare être devenu suprémacistes sous l'influence de Warhammer 40K, tandis que des partisans de Donald Trump le représentent en Empereur-Dieu de l'Humanité. Certains produits dérivés deviennent des signes de reconnaissance néonazis. 
+Dans les années 2000, des groupes néonazis s'approprient l'imagerie de l'empire de Warhammer 40K. Le suprémaciste américain Matthew Heimbach déclare être devenu suprémacistes sous l'influence de Warhammer 40K, tandis que des partisans de Donald Trump le représentent en Empereur-Dieu de l'Humanité. Certains produits dérivés deviennent des signes de reconnaissance néonazis. 
