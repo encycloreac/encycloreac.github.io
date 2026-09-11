@@ -15,7 +15,7 @@ references:
     url: "https://www.splcenter.org/resources/hatewatch/what-kek-explaining-alt-right-deity-behind-their-meme-magic/"
     label: "SPLCenter.com"
 ---
-Icône de grenouille comique récupérée comme signe de ralliement néonazi. Kek est une icône de grenouille verte à la moue déconfite et au dessin comique. Elle est née sur des forums américains puis devenue un mème. Kek signifie LOL en coréen (la grenouille Kek est également appelée Pepe the Frog). Kek est un symbole comique sur les chats des chaînes Youtube et Twitch. 
+Icône de grenouille comique récupérée comme signe de ralliement néonazi. Kek représente une grenouille verte à la moue déconfite. Elle est née sur des forums américains, où elle est devenue un mème. Kek signifie LOL en coréen (la grenouille Kek est également appelée Pepe the Frog). Kek est un symbole comique sur les chats des chaînes Youtube et Twitch. 
 
 Dans les années 2010, des forums 4chan d’extrême-droite se sont approprié Kek. Kek devient alors un signe de ralliement pour signifier une interprétation fasciste (et complotiste) du monde. Un mème célèbre représente la grenouille Kek avec une mèche blonde rappelant celle de Donald Trump. Un autre représente le drapeau du Kekistan, un détournement du drapeau du 3ème Reich : les K de Kek sont disposés d'une manière qui rappelle à la fois le Ku Klux Klan et la croix gammée nazie. 
 
