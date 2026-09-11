@@ -16,16 +16,10 @@ layout: default
   </div>
 
   <div class="frame-left">
-    {% if page.intentions %}
+    {% if page.analyse %}
     <div class="info-block">
-      <h3>Intentions</h3>
-      <p>{{ page.intentions }}</p>
-    </div>
-    {% endif %}
-    {% if page.soutiens_ideologiques %}
-    <div class="info-block" style="margin-top: 1rem;">
-      <h3>{% if lang == "en" %}Ideological support{% else %}Soutiens idéologiques{% endif %}</h3>
-      <p>{{ page.soutiens_ideologiques }}</p>
+      <h3>{% if lang == "en" %}Analysis{% else %}Analyse{% endif %}</h3>
+      <p>{{ page.analyse }}</p>
     </div>
     {% endif %}
   </div>
@@ -42,10 +36,10 @@ layout: default
   </div>
 
   <div class="frame-right">
-    {% if page.analyse %}
+    {% if page.soutiens_ideologiques %}
     <div class="info-block">
-      <h3>{% if lang == "en" %}Analysis{% else %}Analyse{% endif %}</h3>
-      <p>{{ page.analyse }}</p>
+      <h3>{% if lang == "en" %}Ideological support{% else %}Soutiens idéologiques{% endif %}</h3>
+      <p>{{ page.soutiens_ideologiques }}</p>
     </div>
     {% endif %}
     {% if page.soutiens_economiques %}
@@ -54,19 +48,17 @@ layout: default
       <p>{{ page.soutiens_economiques }}</p>
     </div>
     {% endif %}
+    {% if page.liens_autres %}
+    <div class="info-block" style="margin-top: 1rem;">
+      <h3>{% if lang == "en" %}Related speculations{% else %}Liens avec d&rsquo;autres spéculations{% endif %}</h3>
+      <p>{{ page.liens_autres }}</p>
+    </div>
+    {% endif %}
   </div>
 
   <div class="frame-bottom">
-    {% if page.liens_autres %}
-    <div class="info-block">
-      <div class="info-item">
-        <h3>{% if lang == "en" %}Related speculations{% else %}Liens avec d&rsquo;autres spéculations{% endif %}</h3>
-        <p>{{ page.liens_autres }}</p>
-      </div>
-    </div>
-    {% endif %}
     {% if page.references %}
-    <div class="sources" style="margin-top: 1rem;">
+    <div class="sources">
       <p><strong>{% if lang == "en" %}References:{% else %}Références :{% endif %}</strong></p>
       {% for ref in page.references %}
         <p>{{ ref.texte }}{% if ref.url %} : <a href="{{ ref.url }}" target="_blank" rel="noopener">{{ ref.label | default: ref.url }}</a>{% endif %}</p>
