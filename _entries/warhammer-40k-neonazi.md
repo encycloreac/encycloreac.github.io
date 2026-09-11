@@ -10,7 +10,7 @@ references:
   - texte: "<em>Speculative Whiteness</em>, Jordan S. Carroll (2024)"
     url: "https://www.upress.umn.edu/9781517917081/speculative-whiteness/"
     label: "University of Minnesota Press (payant)"
-  - texte: "Warhammer 40K's anti-fascist future: How GW is rebuilding The Hobby"
+  - texte: "« Warhammer 40K's anti-fascist future: How GW is rebuilding The Hobby », Jordan S. Carroll (2022)"
     url: "https://www.polygon.com/23414657/warhammer-40k-anti-fascism-space-marines-capitalism-leagues-of-votann-hate/"
     label: "polygon.com"
 ---
