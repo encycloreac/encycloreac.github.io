@@ -3,7 +3,7 @@ title: "Warhammer 40K néonazi"
 zone: "Royaume-Uni, Etats-Unis"
 orientation: "Néonazi / suprémaciste blanc / ethno-nationalisme"
 analyse: "La récupération de Warhammer 40K illustre la propension des groupes néonazis à investir la pop culture contemporaine, quitte à s'identifier à des univers conçus comme des caricatures dévalorisantes du fascisme. En réaction, l'irruption de ces groupes néonazis pousse Games Workshop et les communautés de fans de Warhammer 40K vers l'antifascisme."
-soutiens_ideologiques: "Matthew Heimbach, MAGA"
+soutiens_ideologiques: "Matthew Heimbach, MAGA, suprémacistes américains, néonazis britanniques"
 soutiens_economiques: "Inconnus"
 liens_autres: "Kek (communautés digitales transnationales), Silicon LoTR (Etats-Unis)"
 references:
