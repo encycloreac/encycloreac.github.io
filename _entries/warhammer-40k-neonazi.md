@@ -2,10 +2,10 @@
 title: "Warhammer 40K néonazi"
 zone: "Royaume-Uni, Etats-Unis"
 orientation: "Néonazi / suprémaciste blanc / ethno-nationalisme"
-analyse: "La récupération ."
-soutiens_ideologiques: "Matthew Heimbach, MAGA."
-soutiens_economiques: "Inconnu"
-liens_autres: "Kek (communautés digitales transnationales), Camp des Saints (France), Silicon LoTR (Etats-Unis)"
+analyse: "La récupération de Warhammer 40K illustre la propension des groupes néonazis à investir la pop culture contemporaine, quitte à s'identifier à des univers conçus comme des caricatures dévalorisantes du fascisme. En réaction, l'irruption de ces groupes néonazis pousse Games Workshop et les communautés de fans de Warhammer 40K vers l'antifascisme."
+soutiens_ideologiques: "Matthew Heimbach, MAGA"
+soutiens_economiques: "Inconnus"
+liens_autres: "Kek (communautés digitales transnationales), Silicon LoTR (Etats-Unis)"
 references:
   - texte: "<em>Speculative Whiteness</em>, Jordan S. Carroll (2024)"
     url: "https://www.upress.umn.edu/9781517917081/speculative-whiteness/"
@@ -16,8 +16,6 @@ references:
 ---
 Récupération de l'univers Warhammer 40K comme signe de reconnaissance néonazi. Warhammer 40K est un univers de fantaisie créé à partir de la fin des années 1980 et organisé autour d'un jeu de plateau et de ses produits dérivés (jeux vidéos, figurines à colorier). 
 
-
 Dans cet univers, des Space Marines appartenant à un empire fasciste dirigé par l'Empereur-Dieu de l'Humanité éliminent sans relâche des races étrangères et des hérétiques. L'entreprise britannique à l'origine de Warhammer, Games Workshop, avait conçu l'Imperium comme une organisation parodique dont les aspects fanatiques, bureaucratiques et sanguinaires tendaient au comique. 
-
 
 À partir des années 2000, l'univers de Warhammer 40K est récupéré par des groupes néonazis, malgré les efforts de Games Workshop pour s'en distancier. Le suprémaciste américain Matthew Heimbach déclare par exemple en être venu à l'ethno-nationalisme sous l'influence de Warhammer 40K, tandis que des partisans de Donald Trump le dépeignent en Empereur-Dieu de l'Humanité. Certains slogans et produits dérivés de l'Imperium deviennent des signes de reconnaissance néonazis. 
