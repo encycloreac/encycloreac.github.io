@@ -18,4 +18,6 @@ Projet de lancement d'îles flottantes dans les eaux internationales pour évade
 
 Le projet vise à construire et lancer dans les eaux internationales à 370 kilomètres de la Californie des îles flottantes régies par des législations <em>ad hoc</em> plus permissives. Il met en pratique le modèle de l'économiste néolibéral Robert Nozick dans <em>Anarchie, Etat et utopie</em> (1974), qui voyait la concurrence entre une multitude de micro-Etats comme un moyen d'aboutir à un Etat minimal, favorable aux intérêts du capital. 
 
-Le Seasteading Institute a exploré plusieurs modèles, dont celui du navire-hôpital réalisant des opérations à partir de celulles-souches interdites ailleurs et celui d'îles favorables aux cryptomonnaies. Il a tenté sans succès d'installer une île dans un lagon en Polynésie française. Le Seasteading Institute bénéficé du soutien des patrons de fonds de capital-risque et milliardaires Peter Thiel et Marc Andreessen. 
+Le Seasteading Institute a exploré plusieurs modèles, dont celui du navire-hôpital réalisant des opérations à partir de celulles-souches interdites ailleurs et celui d'îles favorables aux cryptomonnaies. Il a tenté sans succès d'installer une île dans un lagon en Polynésie française. 
+
+Le Seasteading Institute bénéficé du soutien des patrons de fonds de capital-risque et milliardaires Peter Thiel et Marc Andreessen. 
