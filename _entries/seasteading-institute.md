@@ -7,7 +7,7 @@ soutiens_ideologiques: "Robert Nozick, Milton Friedman, pensée utopiste"
 soutiens_economiques: "Peter Thiel, Marc Andreessen, fonds de capital-risque, Big Tech, industrie des crypto-monnaies"
 liens_autres: "Ciskei (Afrique du Sud), Freedonia (Somaliland), Freedom City (Groenland), New Gaza (Palestine)"
 references:
-  - texte: "« Network states : les rêves de sécession des rois de la tech », Nastasia Hadjadji (2023)"
+  - texte: "« Network states : les rêves de sécession des rois de la tech », Nastasia Hadjadji (2025)"
     url: "https://www.liberation.fr/idees-et-debats/network-states-quand-les-rois-de-la-tech-libertariens-revent-de-faire-secession-20250528_ACDXAWL5FZATLLLYID2PS67PWY/"
     label: "liberation.fr (payant)"
   - texte: "<em>Le Capitalisme de l'Apocalypse</em>, Quinn Slobodian (2025)"
