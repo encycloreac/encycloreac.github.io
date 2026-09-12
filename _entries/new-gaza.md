@@ -5,7 +5,7 @@ orientation: "Ségrégationniste / libertarienne / génocidaire"
 intentions: ""
 analyse: "Le projet vise à rendre possible et désirable l'épuration ethnique de la bande de Gaza pour avancer le projet colonial d'Israël, en la transformant en opportunité économique. Il montre la compatibilité entre le futurisme <em>corporate</em> des cabinets de conseil, le libertarianisme des zones franches décrit pat Quinn Slobodian et le projet colonial et génocidaire de l'extrême-droite israélienne."
 soutiens_ideologiques: "Coalition de gouvernement israélienne (droite/extrême-droite), Tony Blair Institute, MAGA."
-soutiens_economiques: "BCG, Elon Musk, Big Tech américaine, Trump Organization, pétromonarchies du Golfe."
+soutiens_economiques: "BCG, Elon Musk, Big Tech, Trump Organization, pétromonarchies du Golfe."
 liens_autres: "Ciskei (Afrique du Sud), Freedonia (Somaliland), Freedom City (Groenland), Orania (Afrique du Sud), Eretz Israel Hashlema (Israel)."
 references:
   - texte: "« Great Trust: Comment Trump veut faire de Gaza une riviera après le déplacement de sa population », Dorothée Schmid (2025)"
