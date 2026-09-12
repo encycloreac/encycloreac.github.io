@@ -1,9 +1,9 @@
 ---
 title: "Seasteading Institute"
 zone: "Etats-Unis"
-orientation: "Libertarienne / anarcho-capitaliste / utopiste"
+orientation: "Libertarienne / anarcho-capitaliste / néolibéralisme / minarchie"
 analyse: "Le Seasteading Institute est un projet utopique, utilisant la solution technique et juridique des îles flottantes pour favoriser la sécession des grandes fortunes. Pour Nastasia Hadjadji et Quinn Slobodian, le Seasteading Institute est l'un des instruments par lesquels les patrons libertariens comme Peter Thiel cherchent à subvertir  (<em>i.e.,</em> renverser par un travail de sape plutôt qu'un coup d'Etat) l'ordre actuel à leur profit."
-soutiens_ideologiques: "Robert Nozick, Milton Friedman, pensée utopiste"
+soutiens_ideologiques: "Robert Nozick, Milton Friedman, pensée minarchiste (visant un Etat minimal)"
 soutiens_economiques: "Peter Thiel, Marc Andreessen, fonds de capital-risque, Big Tech, industrie des crypto-monnaies"
 liens_autres: "Ciskei (Afrique du Sud), Freedonia (Somaliland), Freedom City (Groenland), New Gaza (Palestine)"
 references:
