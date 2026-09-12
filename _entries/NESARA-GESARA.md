@@ -2,7 +2,7 @@
 title: "NESARA/GESARA"
 zone: "communautés digitales transnationales"
 orientation: "Conspirationnisme / libertarianisme / néonazisme / anarcho-capitalisme / conservatisme révolutionnaire"
-analyse: "La théorie de la conspiration présente l'existence de l'Etat comme le symptôme d'une conspiration et la lutte contre l'Etat comme la restauration d'un ordre naturel. Pour Fabian Muniesa, il ne faut pas interpréter NESARA/GESARA comme un délire de marginaux. Au contraire, elle radicalise (<em>i.e.,</em> revient aux racines) la théorie de la valeur <em>mainstream</em>, en délégitimant la capacité des Etats en tant qu'entités collectives chargées d'organiser la vie sociale et économique."
+analyse: "NESARA/GESARA présente l'existence de l'Etat comme le symptôme d'une conspiration et la lutte contre l'Etat comme la restauration d'un ordre naturel. Pour Fabian Muniesa, NESARA/GESARA n'est pas un délire de marginaux : elle radicalise (<em>i.e.,</em> revient aux racines) la théorie de la valeur <em>mainstream</em>, en délégitimant toute prise en charge collective de la vie sociale et économique."
 soutiens_ideologiques: "Communautés QAnon et Citoyens Souverains, l'influenceur Joe Rogan, le sénateur américain libertarien Rand Paul."
 soutiens_economiques: "Industrie des crypto-monnaies et de la finance décentralisée, Elon Musk."
 liens_autres: "Quantum Financial System, QAnon, Grand Remplacement."
