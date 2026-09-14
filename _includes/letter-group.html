@@ -1,17 +1,34 @@
 {% assign letter = include.letter %}
 {% if include.lang == "en" %}
-  {% assign sorted_entries = site.entries_en | sort_natural: "title" %}
+  {% assign entries_list = site.entries_en %}
 {% else %}
-  {% assign sorted_entries = site.entries | sort_natural: "title" %}
+  {% assign entries_list = site.entries %}
 {% endif %}
+
+{% assign matches = "" | split: "," %}
+{% for e in entries_list %}
+  {% assign norm = e.title | downcase %}
+  {% assign norm = norm | replace: 'à','a' | replace: 'â','a' | replace: 'ä','a' | replace: 'á','a' | replace: 'ã','a' %}
+  {% assign norm = norm | replace: 'é','e' | replace: 'è','e' | replace: 'ê','e' | replace: 'ë','e' %}
+  {% assign norm = norm | replace: 'î','i' | replace: 'ï','i' | replace: 'í','i' | replace: 'ì','i' %}
+  {% assign norm = norm | replace: 'ô','o' | replace: 'ö','o' | replace: 'ò','o' | replace: 'ó','o' | replace: 'õ','o' %}
+  {% assign norm = norm | replace: 'û','u' | replace: 'ü','u' | replace: 'ù','u' | replace: 'ú','u' %}
+  {% assign norm = norm | replace: 'ç','c' | replace: 'ñ','n' %}
+  {% assign first_char = norm | slice: 0, 1 | upcase %}
+  {% if first_char == letter %}
+    {% assign encoded = norm | append: '|||' | append: e.title | append: '|||' | append: e.url | append: '|||' | append: e.zone %}
+    {% assign encoded_arr = encoded | split: '@@@@@' %}
+    {% assign matches = matches | concat: encoded_arr %}
+  {% endif %}
+{% endfor %}
+{% assign matches = matches | sort_natural %}
+
 <div class="letter-group">
   <span class="letter-label">{{ letter }}</span>
-  {% for e in sorted_entries %}
-    {% assign first_char = e.title | slice: 0, 1 | upcase %}
-    {% if first_char == letter %}
-      <p class="entry-item">
-        <a href="{{ e.url | relative_url }}">{{ e.title }}</a>{% if e.zone %} ({{ e.zone }}){% endif %}
-      </p>
-    {% endif %}
+  {% for item in matches %}
+    {% assign parts = item | split: '|||' %}
+    <p class="entry-item">
+      <a href="{{ parts[2] | relative_url }}">{{ parts[1] }}</a>{% if parts[3] and parts[3] != "" %} ({{ parts[3] }}){% endif %}
+    </p>
   {% endfor %}
 </div>
