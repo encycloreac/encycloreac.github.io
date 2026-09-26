@@ -27,14 +27,14 @@ layout: default
     <div class="sommaire-columns">
 
       <div class="col-1">
-        {% assign letters1 = "ABCDEFGHIJKLMN" | split: "" %}
+        {% assign letters1 = "ABCDEFGHIJKLM" | split: "" %}
         {% for letter in letters1 %}
           {% include letter-group.html letter=letter lang=lang %}
         {% endfor %}
       </div>
 
       <div class="col-2">
-        {% assign letters2 = "OPQRSTUVWXYZ" | split: "" %}
+        {% assign letters2 = "NOPQRSTUVWXYZ" | split: "" %}
         {% for letter in letters2 %}
           {% include letter-group.html letter=letter lang=lang %}
         {% endfor %}
