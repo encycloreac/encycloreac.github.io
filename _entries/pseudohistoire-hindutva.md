@@ -3,7 +3,7 @@ title: "Pseudohistoire Hindutva"
 zone: "Inde"
 orientation: "Suprémacisme hindou / nationalisme / ethno-nationalisme"
 analyse: "La pseudohistoire Hindutva à répliquer dans le reste du monde. Ciskei remet en question la croyance selon laquelle les pensées libertariennes et néolibérales sont incompatibles avec les visions racistes et ségrégationnistes du monde. Quinn Slobodian montre au contraire que la pensée néolibérale cherche dès son origine à protéger l'ordre racial blanc."
-soutiens_ideologiques: "Suprémacisme hindou, BJP, ethno-nationalisme, post-modernisme, Joe Rogan"
+soutiens_ideologiques: "Narendra Modi, BJP, Joe Rogan"
 soutiens_economiques: "Oligarques proches du régime du BJP"
 liens_autres: "Puy du Fou (France)"
 references:
