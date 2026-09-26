@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "À propos"
+title: "Crédits & contact"
 permalink: /a-propos/
 ---
 <p>Cette encyclopédie est animée par <b>Théo Bourgeron</b>. Les contributeur-ices sont nommé-es directement sur les notices auxquelles ielles ont contribué.</p>
