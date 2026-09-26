@@ -5,11 +5,15 @@
 ```
 _config.yml          réglages du site
 Gemfile               dit à GitHub Pages quelle version de Jekyll utiliser
-index.html            page d'accueil (texte de présentation uniquement)
+index.html            page d'accueil française (sommaire seul, à la racine)
+en/index.html          page d'accueil anglaise (/en/)
+about.md               page "Pourquoi l'Encyclo-Réac ?" (/about/)
+en/about.md              page "Why Reactiopedia?" (/en/about/)
 _layouts/
   default.html         squelette HTML commun (head, CSS...)
-  home.html             gabarit de la page d'accueil (génère le sommaire A-Z)
-  entry.html            gabarit d'une fiche
+  home.html             gabarit de l'accueil (sommaire A-Z généré automatiquement)
+  page.html             gabarit d'une page de texte simple (About, etc.)
+  entry.html             gabarit d'une fiche
 _includes/
   letter-group.html     bloc réutilisable : liste les fiches d'une lettre
 _entries/
@@ -65,4 +69,20 @@ de traduire tout d'un coup.
 Tout changement dans `_layouts/entry.html` (ou `home.html`, ou le CSS)
 s'applique instantanément à **toutes** les fiches, dans les deux
 langues, sans avoir à les modifier une par une.
+
+## La page "Pourquoi l'Encyclo-Réac ?"
+
+L'accueil (`/` et `/en/`) ne contient plus que le sommaire. Le texte
+de présentation vit maintenant dans deux pages séparées :
+
+- `about.md` -> `/about/`
+- `en/about.md` -> `/en/about/`
+
+Elles utilisent le layout `page.html`, qui affiche un titre et le
+texte, avec un lien de retour vers le sommaire. Le lien "Pourquoi
+l'Encyclo-Réac ?" / "Why Reactiopedia?" en haut de l'accueil y mène.
+
+Pour créer une autre page de texte du même genre (une page
+"Méthodologie" par exemple), il suffit de dupliquer `about.md`,
+changer le `title` et le `permalink`, et écrire le texte.
 

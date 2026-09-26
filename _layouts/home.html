@@ -4,8 +4,12 @@ layout: default
 {% assign lang = page.lang | default: "fr" %}
 <div class="lang-switch">
   {% if lang == "en" %}
+    <a href="{{ '/en/about/' | relative_url }}">About</a>
+    <span class="nav-sep">·</span>
     <a href="{{ '/' | relative_url }}">Français</a>
   {% else %}
+    <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
+    <span class="nav-sep">·</span>
     <a href="{{ '/en/' | relative_url }}">English</a>
   {% endif %}
 </div>
