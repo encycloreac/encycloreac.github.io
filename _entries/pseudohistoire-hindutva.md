@@ -7,9 +7,9 @@ soutiens_ideologiques: "Suprémacisme hindou, BJP, ethno-nationalisme, post-mode
 soutiens_economiques: "Oligarques proches du régime du BJP"
 liens_autres: "Puy du Fou (France)"
 references:
-  - texte: "<em>Le Capitalisme de l'Apocalypse</em>, Quinn Slobodian (2025)"
-    url: "https://www.seuil.com/ouvrage/le-capitalisme-de-l-apocalypse-quinn-slobodian/9782021451405"
-    label: "seuil.com (payant)"
+  - texte: "<em>Postcolonial Theory and the Making of Hindu Nationalism</em>, Meera Nanda (2026)"
+    url: "https://www.routledge.com/Postcolonial-Theory-and-the-Making-of-Hindu-Nationalism-The-Wages-of-Unreason/Nanda/p/book/9781032848501"
+    label: "Routledge (payant)"
   - texte: "« 'Yes, the Airplanes Too': Against the Hindutva History of Science », Meera Nanda (2016)"
     url: "https://caravanmagazine.in/vantage/modern-science-ancient-texts"
     label: "Caravan Magazine"
