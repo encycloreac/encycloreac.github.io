@@ -2,46 +2,41 @@
 layout: default
 ---
 {% assign lang = page.lang | default: "fr" %}
-<div class="home-page">
+<div class="lang-switch">
+  {% if lang == "en" %}
+    <a href="{{ '/' | relative_url }}">Français</a>
+  {% else %}
+    <a href="{{ '/en/' | relative_url }}">English</a>
+  {% endif %}
+</div>
 
-  <div class="home-header">
+<div class="home-container">
+
+  <div class="left">
     <h2>{% if lang == "en" %}{{ site.title_en | default: site.title }}{% else %}{{ site.title }}{% endif %}</h2>
-    <nav class="home-nav">
-      {% if lang == "en" %}
-        <a href="{{ '/en/about/' | relative_url }}">Why {{ site.title_en | default: site.title }}?</a>
-        <span class="nav-sep">·</span>
-        <a href="{{ '/' | relative_url }}">Français</a>
-      {% else %}
-        <a href="{{ '/about/' | relative_url }}">Pourquoi l&rsquo;{{ site.title }}&nbsp;?</a>
-        <span class="nav-sep">·</span>
-        <a href="{{ '/en/' | relative_url }}">English</a>
-      {% endif %}
-    </nav>
+    <div class="entry-content">
+      {{ content }}
+    </div>
   </div>
 
-  <div class="sommaire-columns">
+  <div class="right">
+    <div class="sommaire-columns">
 
-    <div class="col-1">
-      {% assign letters1 = "ABCDEFGHI" | split: "" %}
-      {% for letter in letters1 %}
-        {% include letter-group.html letter=letter lang=lang %}
-      {% endfor %}
+      <div class="col-1">
+        {% assign letters1 = "ABCDEFGHIJKLM" | split: "" %}
+        {% for letter in letters1 %}
+          {% include letter-group.html letter=letter lang=lang %}
+        {% endfor %}
+      </div>
+
+      <div class="col-2">
+        {% assign letters2 = "NOPQRSTUVWXYZ" | split: "" %}
+        {% for letter in letters2 %}
+          {% include letter-group.html letter=letter lang=lang %}
+        {% endfor %}
+      </div>
+
     </div>
-
-    <div class="col-2">
-      {% assign letters2 = "JKLMNOPQR" | split: "" %}
-      {% for letter in letters2 %}
-        {% include letter-group.html letter=letter lang=lang %}
-      {% endfor %}
-    </div>
-
-    <div class="col-3">
-      {% assign letters3 = "STUVWXYZ" | split: "" %}
-      {% for letter in letters3 %}
-        {% include letter-group.html letter=letter lang=lang %}
-      {% endfor %}
-    </div>
-
   </div>
 
 </div>
