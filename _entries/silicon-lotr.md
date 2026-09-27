@@ -7,7 +7,7 @@ soutiens_ideologiques: "Samuel Huntington, Alex Karp, Peter Thiel, Palmer Luckey
 soutiens_economiques: "Fonds de capital-risque, Big Tech, startups de défense"
 liens_autres: "Warhammer 40K néonazi (Royaume-Uni), KEK (communautés digitales transnationales)"
 references:
-  - texte: "Materialized Science Fiction: The Tech Oligarchy's Blueprint for a New Global Order, Ali Riza Taskale (2026)"
+  - texte: "« Materialized Science Fiction: The Tech Oligarchy's Blueprint for a New Global Order », Ali Riza Taskale (2026)"
     url: "https://academic.oup.com/isagsq/article/6/1/ksag002/8508721"
     label: "Global Studies Quarterly"
   - texte: "« Peter Thiel's influence over a network of Lord of the Rings-inspired companies », Paris Marx (2024)"
