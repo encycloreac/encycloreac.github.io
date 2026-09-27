@@ -14,7 +14,7 @@ references:
     url: "https://disconnect.blog/peter-thiels-influence-over-a-network-of-lord-of-the-rings-inspired-companies/"
     label: "Disconnect"
 ---
-Récupérations du <em>Seigneur des Anneaux</em> (<em>Lord of the Rings</em>, LoTR) par des entreprises américaines de la tech. 
+Récupérations du <em>Seigneur des Anneaux</em> (<em>LoTR</em>) par la tech américaine. 
 
 Les technofascistes récupèrent un univers mainstream et le transforment en véhicule de leur projet politique réactionnaire. Ils s'approprient pêle-mêle la représentation par Tolkien d'un choc existentiel entre races, d'un conflit manichéen, de la puissance des technologies de surveillance et contrôle manipulées par Sauron. Ces trois dimensions se retrouvent dans l'idéologie technofasciste d'un livre comme <em>La République technologique</em> d'Alex Karp, le PDG de l'entreprise d'IA militaire Palantir.
 
